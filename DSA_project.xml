@@ -1,0 +1,53 @@
+<restaurant>
+    <menu>
+        <item>
+            <id>CH1</id>
+            <name>Kung Pao Chicken</name>
+            <price>15.99</price>
+            <category>Chinese Food</category>
+            <preparationTime>25</preparationTime>
+        </item>
+        <item>
+            <id>IT1</id>
+            <name>Spaghetti Carbonara</name>
+            <price>14.99</price>
+            <category>Italian Food</category>
+            <preparationTime>25</preparationTime>
+        </item>
+        <!-- Add more <item> entries as needed -->
+    </menu>
+
+    <orders>
+        <order>
+            <orderId>ORD1234</orderId>
+            <customerName>Ali Khan</customerName>
+            <phoneNumber>033-123-4567</phoneNumber>
+            <deliveryAddress>
+                <streetAddress>123 Main Street</streetAddress>
+                <city>Islamabad</city>
+                <zipCode>44000</zipCode>
+            </deliveryAddress>
+            <payment>
+                <cardNumber>************1234</cardNumber>
+                <cardType>Visa</cardType>
+                <expiryDate>12/26</expiryDate>
+            </payment>
+            <items>
+                <item>
+                    <id>CH1</id>
+                    <name>Kung Pao Chicken</name>
+                    <price>15.99</price>
+                </item>
+                <item>
+                    <id>IT1</id>
+                    <name>Spaghetti Carbonara</name>
+                    <price>14.99</price>
+                </item>
+            </items>
+            <totalAmount>30.98</totalAmount>
+            <status>Pending</status>
+            <specialInstructions>Extra spicy</specialInstructions>
+        </order>
+        <!-- Add more <order> entries if needed -->
+    </orders>
+</restaurant>
